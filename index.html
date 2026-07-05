@@ -284,7 +284,28 @@ footer { text-align: center; padding: 60px 20px; color: var(--muted); font-size:
     <p style="font-size:22px; max-width:560px; margin:24px auto; opacity:0.95;">
       One platform for creators, service providers, and communities across Africa and the world.
     </p>
-    <a href="#" onclick="alert('Thank you for your interest in Walzora! In a real deployment this would link to waitlist or demo.')" class="btn btn-primary" style="background:white; color:#0F172A; font-size:18px; padding:18px 40px;">Join the Movement</a>
+    
+    <!-- Waitlist Form -->
+    <div style="max-width: 420px; margin: 40px auto 0;">
+      <form action="https://formspree.io/f/xwvdyqze" method="POST" style="display: flex; flex-direction: column; gap: 12px;">
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="your@email.com" 
+          required
+          style="padding: 16px 20px; border-radius: 12px; border: none; font-size: 16px;">
+        
+        <button 
+          type="submit"
+          class="btn btn-primary" 
+          style="background:white; color:#0F172A; font-size:18px; padding:18px 40px; justify-content:center;">
+          Join the Waitlist →
+        </button>
+      </form>
+      <p style="margin-top: 16px; font-size: 14px; opacity: 0.85;">
+        Early access • No spam • Launch updates only
+      </p>
+    </div>
   </div>
 </section>
 
